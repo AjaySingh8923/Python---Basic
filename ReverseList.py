@@ -8,6 +8,6 @@ print("List = ",li)
 li1=[]
 
 print("Reversing The List")
-for i in range (len(li)):
+for i in range (len(li)): #len(li) calculate length of Li list
     li1.append(li[len(li)-i-1])
 print(li1)
